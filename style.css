@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -43,7 +44,6 @@ h1 {
     border: none;
     border-radius: 15px;
     background-color: #1a73e8;
-    
 }
 .input-cont input::placeholder{
     color: white;
@@ -51,7 +51,6 @@ h1 {
 input:focus {
     outline: none;
 }
-
 .up-text{
     text-align: center;
     padding-top: 50px;
@@ -69,9 +68,7 @@ input:focus {
     height: 150px;
     padding: 35px;
     font-size: 20px;
-
 }
-
 .box-container {
     padding: 7px;
     display: flex;
@@ -113,6 +110,9 @@ input:focus {
 }
 .box1 button:hover {
     background-color: #357ae8;
+}
+.hidden {
+    display: none;
 }
 @media only screen and (max-width: 800px) {
     .nav-items li {
